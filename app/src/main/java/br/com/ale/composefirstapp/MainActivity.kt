@@ -9,7 +9,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import br.com.ale.composefirstapp.ui.splashscreen.SplashScreen
-import br.com.ale.composefirstapp.ui.theme.ComposeFirstAppTheme
+import br.com.ale.composefirstapp.ui.theme.AppTheme
 import br.com.ale.composefirstapp.ui.todolist.TodoListScreen
 import br.com.ale.composefirstapp.utils.Routes
 
@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeFirstAppTheme {
+            AppTheme {
                 val navController = rememberNavController()
                 NavHost(
                     navController = navController,
