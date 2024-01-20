@@ -22,6 +22,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import br.com.ale.composefirstapp.R
+import br.com.ale.composefirstapp.ui.theme.primaryLight
 import br.com.ale.composefirstapp.utils.Routes
 import br.com.ale.composefirstapp.utils.UiEvent
 import kotlinx.coroutines.delay
@@ -37,7 +38,7 @@ fun SplashScreen(onNavigate: (UiEvent.Navigate) -> Unit) {
 
 @Composable
 fun Main() {
-    Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.primary) {
+    Surface(modifier = Modifier.fillMaxSize(), color = primaryLight) {
         Column(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally

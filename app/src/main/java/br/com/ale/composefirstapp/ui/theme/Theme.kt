@@ -19,7 +19,7 @@ private val DarkColorScheme = darkColorScheme(
     primary = primaryLight,
     secondary = successLight,
     background = grayColor,
-    tertiary = gray2Color,
+    tertiary = graySecundaryColor,
     primaryContainer = whiteColor
 )
 
@@ -27,7 +27,7 @@ private val LightColorScheme = lightColorScheme(
     primary = primaryLight,
     secondary = successLight,
     background = grayColor,
-    tertiary = gray2Color,
+    tertiary = graySecundaryColor,
     primaryContainer = whiteColor
 )
 
